@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3397C6D27AD17D200D095A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C6C27AD17D200D095A3 /* main.cpp */; };
+		A3397C7427AD17F800D095A3 /* StackUsingVectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C7327AD17F800D095A3 /* StackUsingVectors.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A3397C6927AD17D200D095A3 /* Data Structures and Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structures and Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3397C6C27AD17D200D095A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A3397C7327AD17F800D095A3 /* StackUsingVectors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackUsingVectors.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A3397C6C27AD17D200D095A3 /* main.cpp */,
+				A3397C7327AD17F800D095A3 /* StackUsingVectors.cpp */,
 			);
 			path = "Data Structures and Algorithms";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3397C7427AD17F800D095A3 /* StackUsingVectors.cpp in Sources */,
 				A3397C6D27AD17D200D095A3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
