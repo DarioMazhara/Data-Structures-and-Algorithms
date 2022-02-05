@@ -6,44 +6,72 @@
 //
 
 #include <iostream>
-#include "StackUsingVectors.cpp"
+#include <stdio.h>
+#include "LinkedList.cpp"
+#include <string>
+#include <utility>
+#include "DLinkedList.cpp"
+#include "DoublyNode.cpp"
+#include "CircularLinkedList.cpp"
+using namespace std;
 
 
-class Object {
-    
-};
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
+    DLinkedList<string>* dll = new DLinkedList<string>();
+    CircularLinkedList<string>* cll = new CircularLinkedList<string>();
     
-    //Probably the easiest implementation of a stack
-    Stack<int> stack;
+    DNode<string>* dn1 = new DNode<string>("dario");
+    DNode<string>* dn2 = new DNode<string>("rose");
+    DNode<string>* dn3 = new DNode<string>("ethan");
+    DNode<string>* dn4 = new DNode<string>("krishan");
+    DNode<string>* dn5 = new DNode<string>("alex");
     
-    cout << stack.empty() << endl;
-    stack.push(4);
-    stack.push(34);
-    stack.push(76);
-    stack.push(44);
-    stack.push(0);
-    cout << stack.empty() << endl;
+    Node<string>* cn1 = new Node<string>("dario1");
+    Node<string>* cn2 = new Node<string>("rose");
+    Node<string>* cn3 = new Node<string>("ethan");
+    Node<string>* cn4 = new Node<string>("krishan");
+    Node<string>* cn5 = new Node<string>("alex");
+    Node<string>* cn6 = new Node<string>("javesh");
     
-    cout << stack.top() << endl;
+    dll->add(dn1);
+    dll->add(dn2);
+    dll->add(dn3);
+    dll->add(dn4);
     
-    stack.pop();
+    cll->add(cn1);
+    cll->add(cn2);
+    cll->add(cn3);
+    cll->add(cn4);
+    cll->add(cn5);
     
-    cout << stack.top() << endl;
+    cll->print_all_data();
+    
+    cout << "  " << endl;
+    
+    cll->insert(cn6, 2);
+    
+    cll->print_all_data();
+    
+    cll->deletenode(cn5);
+    
+    cout << " " << endl;
+    
+    cll->print_all_data();
     
     
+    cout << "     " << endl << cll->get_elements() << endl;
     
-    Stack<Object*> stack2;
+    cll->reverse();
     
-    stack2.push(new Object());
+    cout << " " << endl;
     
-    cout << stack2.top() << endl; //lol well it works
     
-    cout << stack.size() << endl;
+    cll->print_all_data();
     
-    cout << stack2.size() << endl;
     return 0;
 }
