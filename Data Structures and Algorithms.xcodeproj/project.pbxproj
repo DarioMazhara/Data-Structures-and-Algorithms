@@ -14,6 +14,7 @@
 		A3397C7B27AE4CB000D095A3 /* DoublyNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C7A27AE4CB000D095A3 /* DoublyNode.cpp */; };
 		A3397C7D27AE802000D095A3 /* DLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C7C27AE802000D095A3 /* DLinkedList.cpp */; };
 		A3397C7F27AEE84200D095A3 /* CircularLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C7E27AEE84200D095A3 /* CircularLinkedList.cpp */; };
+		A36DE9A627AF033500E66831 /* CircularDoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9A527AF033500E66831 /* CircularDoubleLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		A3397C7A27AE4CB000D095A3 /* DoublyNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyNode.cpp; sourceTree = "<group>"; };
 		A3397C7C27AE802000D095A3 /* DLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DLinkedList.cpp; sourceTree = "<group>"; };
 		A3397C7E27AEE84200D095A3 /* CircularLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularLinkedList.cpp; sourceTree = "<group>"; };
+		A36DE9A527AF033500E66831 /* CircularDoubleLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularDoubleLinkedList.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				A3397C7A27AE4CB000D095A3 /* DoublyNode.cpp */,
 				A3397C7C27AE802000D095A3 /* DLinkedList.cpp */,
 				A3397C7E27AEE84200D095A3 /* CircularLinkedList.cpp */,
+				A36DE9A527AF033500E66831 /* CircularDoubleLinkedList.cpp */,
 				A3397C7827ADD17C00D095A3 /* Node.cpp */,
 			);
 			path = "Data Structures and Algorithms";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36DE9A627AF033500E66831 /* CircularDoubleLinkedList.cpp in Sources */,
 				A3397C7427AD17F800D095A3 /* StackUsingVectors.cpp in Sources */,
 				A3397C7727AD23CD00D095A3 /* LinkedList.cpp in Sources */,
 				A3397C6D27AD17D200D095A3 /* main.cpp in Sources */,
