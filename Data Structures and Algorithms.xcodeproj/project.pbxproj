@@ -15,6 +15,7 @@
 		A3397C7D27AE802000D095A3 /* DLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C7C27AE802000D095A3 /* DLinkedList.cpp */; };
 		A3397C7F27AEE84200D095A3 /* CircularLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3397C7E27AEE84200D095A3 /* CircularLinkedList.cpp */; };
 		A36DE9A627AF033500E66831 /* CircularDoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9A527AF033500E66831 /* CircularDoubleLinkedList.cpp */; };
+		A36DE9AE27AFD92C00E66831 /* HashTableChaining.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9AC27AFD92B00E66831 /* HashTableChaining.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,8 @@
 		A3397C7C27AE802000D095A3 /* DLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DLinkedList.cpp; sourceTree = "<group>"; };
 		A3397C7E27AEE84200D095A3 /* CircularLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularLinkedList.cpp; sourceTree = "<group>"; };
 		A36DE9A527AF033500E66831 /* CircularDoubleLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularDoubleLinkedList.cpp; sourceTree = "<group>"; };
+		A36DE9AC27AFD92B00E66831 /* HashTableChaining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashTableChaining.cpp; sourceTree = "<group>"; };
+		A36DE9AD27AFD92B00E66831 /* HashTableChaining.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashTableChaining.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				A3397C6C27AD17D200D095A3 /* main.cpp */,
+				A36DE9AC27AFD92B00E66831 /* HashTableChaining.cpp */,
+				A36DE9AD27AFD92B00E66831 /* HashTableChaining.hpp */,
 				A3397C7327AD17F800D095A3 /* StackUsingVectors.cpp */,
 				A3397C7527AD23CD00D095A3 /* LinkedList.cpp */,
 				A3397C7A27AE4CB000D095A3 /* DoublyNode.cpp */,
@@ -144,6 +149,7 @@
 				A3397C7727AD23CD00D095A3 /* LinkedList.cpp in Sources */,
 				A3397C6D27AD17D200D095A3 /* main.cpp in Sources */,
 				A3397C7B27AE4CB000D095A3 /* DoublyNode.cpp in Sources */,
+				A36DE9AE27AFD92C00E66831 /* HashTableChaining.cpp in Sources */,
 				A3397C7927ADD17C00D095A3 /* Node.cpp in Sources */,
 				A3397C7D27AE802000D095A3 /* DLinkedList.cpp in Sources */,
 				A3397C7F27AEE84200D095A3 /* CircularLinkedList.cpp in Sources */,

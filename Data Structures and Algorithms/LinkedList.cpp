@@ -9,6 +9,7 @@
 #include <iostream>
 #include <string>
 #include "Node.cpp"
+#pragma once
 
 using namespace std;
 
@@ -83,7 +84,7 @@ public:
         return temp->next;
     }
     
-    void print_all_data() {
+    void print() {
         Node<T>* i = head;
         
         while(i != NULL) {

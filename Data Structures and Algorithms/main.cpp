@@ -58,6 +58,9 @@ int main(int argc, const char * argv[]) {
     cdll->print_all_data();
     
     
+    LinkedList<int>* test = new LinkedList<int>[10];
+    
+    
     
     
     return 0;
