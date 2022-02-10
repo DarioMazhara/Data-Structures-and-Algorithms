@@ -14,54 +14,13 @@
 #include "DoublyNode.cpp"
 #include "CircularLinkedList.cpp"
 #include "CircularDoubleLinkedList.cpp"
+#include "IntersectionLinkedList.cpp"
+#include "GraphAdjacencyList.cpp"
+
 using namespace std;
 
 
 
-
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
+int main() {
     
-    CircularDoubleLinkedList<string>* cdll = new CircularDoubleLinkedList<string>();
-    
-    DNode<string>* dn1 = new DNode<string>("dario");
-    DNode<string>* dn2 = new DNode<string>("rose");
-    DNode<string>* dn3 = new DNode<string>("ethan");
-    DNode<string>* dn4 = new DNode<string>("krishan");
-    
-    cdll->add(dn1);
-    cdll->add(dn2);
-    cdll->add(dn3);
-    cdll->add(dn4);
-    
-    cdll->print_all_data();
-    
-    cout << " " << endl;
-    
-    DNode<string>* dn5 = new DNode<string>("insert");
-    
-    cdll->insert(dn5, 3);
-    
-    cdll->print_all_data();
-    
-    cdll->deletenode(dn2);
-    
-    cout << " " << endl;
-    
-    cdll->print_all_data();
-    
-    cout << " " << endl;
-    
-    cdll->reverse();
-    
-    cdll->print_all_data();
-    
-    
-    LinkedList<int>* test = new LinkedList<int>[10];
-    
-    
-    
-    
-    return 0;
 }

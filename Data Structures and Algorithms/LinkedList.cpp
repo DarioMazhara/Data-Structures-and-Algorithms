@@ -12,7 +12,7 @@
 #pragma once
 
 using namespace std;
-
+        
 template <typename T>
 class LinkedList {
 public:
@@ -21,6 +21,14 @@ public:
     
     LinkedList() {
         head = NULL;
+    }
+    
+    void create_and_add(T data) {
+        
+        Node<T>* create = new Node<T>(data);
+        
+        add(create);
+        
     }
     
     void add(Node<T>* add, double index = -1) {
@@ -84,6 +92,19 @@ public:
         return temp->next;
     }
     
+    
+    int node_count() {
+        
+        Node<T>* temp = head;
+        int i = 0;
+        
+        while (temp->next != NULL) {
+            temp = temp->next;
+            i++;
+        }
+        
+        return i;
+    }
     void print() {
         Node<T>* i = head;
         
