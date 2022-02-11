@@ -21,6 +21,8 @@
 		A36DE9B627B13F9500E66831 /* GraphMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9B527B13F9500E66831 /* GraphMatrix.cpp */; };
 		A36DE9B827B141B000E66831 /* Djikstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9B727B141B000E66831 /* Djikstra.cpp */; };
 		A36DE9BA27B3B4BB00E66831 /* LL_RemoveLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9B927B3B4BB00E66831 /* LL_RemoveLoop.cpp */; };
+		A36DE9BC27B5088B00E66831 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9BB27B5088B00E66831 /* BinarySearch.cpp */; };
+		A36DE9BE27B50C6400E66831 /* JumpSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9BD27B50C6400E66831 /* JumpSearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +54,8 @@
 		A36DE9B527B13F9500E66831 /* GraphMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphMatrix.cpp; sourceTree = "<group>"; };
 		A36DE9B727B141B000E66831 /* Djikstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Djikstra.cpp; sourceTree = "<group>"; };
 		A36DE9B927B3B4BB00E66831 /* LL_RemoveLoop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LL_RemoveLoop.cpp; sourceTree = "<group>"; };
+		A36DE9BB27B5088B00E66831 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		A36DE9BD27B50C6400E66831 /* JumpSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpSearch.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				A36DE9AD27AFD92B00E66831 /* HashTableChaining.hpp */,
 				A36DE9AF27AFF0FC00E66831 /* IntersectionLinkedList.cpp */,
 				A36DE9B227B0776700E66831 /* GraphAdjacencyList.cpp */,
+				A36DE9BB27B5088B00E66831 /* BinarySearch.cpp */,
+				A36DE9BD27B50C6400E66831 /* JumpSearch.cpp */,
 				A36DE9B727B141B000E66831 /* Djikstra.cpp */,
 				A3397C7327AD17F800D095A3 /* StackUsingVectors.cpp */,
 				A3397C7527AD23CD00D095A3 /* LinkedList.cpp */,
@@ -160,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36DE9A627AF033500E66831 /* CircularDoubleLinkedList.cpp in Sources */,
+				A36DE9BE27B50C6400E66831 /* JumpSearch.cpp in Sources */,
 				A36DE9B427B0776700E66831 /* GraphAdjacencyList.cpp in Sources */,
 				A3397C7427AD17F800D095A3 /* StackUsingVectors.cpp in Sources */,
 				A3397C7727AD23CD00D095A3 /* LinkedList.cpp in Sources */,
@@ -169,6 +176,7 @@
 				A36DE9B627B13F9500E66831 /* GraphMatrix.cpp in Sources */,
 				A3397C7927ADD17C00D095A3 /* Node.cpp in Sources */,
 				A36DE9B827B141B000E66831 /* Djikstra.cpp in Sources */,
+				A36DE9BC27B5088B00E66831 /* BinarySearch.cpp in Sources */,
 				A36DE9B127AFF0FC00E66831 /* IntersectionLinkedList.cpp in Sources */,
 				A36DE9BA27B3B4BB00E66831 /* LL_RemoveLoop.cpp in Sources */,
 				A3397C7D27AE802000D095A3 /* DLinkedList.cpp in Sources */,
