@@ -26,6 +26,11 @@
 		A36DE9C027B6347900E66831 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9BF27B6347900E66831 /* BubbleSort.cpp */; };
 		A36DE9C327B666DF00E66831 /* SearchSortedRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9C127B666DF00E66831 /* SearchSortedRotatedArray.cpp */; };
 		A36DE9C527B7B85C00E66831 /* MST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9C427B7B85C00E66831 /* MST.cpp */; };
+		A36DE9C727B7C55E00E66831 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9C627B7C55E00E66831 /* QuickSort.cpp */; };
+		A36DE9C927B7CC8400E66831 /* TwoBitSwap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9C827B7CC8400E66831 /* TwoBitSwap.cpp */; };
+		A36DE9CB27B8548000E66831 /* NaivePatternSearching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9CA27B8548000E66831 /* NaivePatternSearching.cpp */; };
+		A36DE9CD27B8675C00E66831 /* SuffixArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A36DE9CC27B8675C00E66831 /* SuffixArray.cpp */; };
+		A38EA18027C6338C003A3B4E /* QuadTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A38EA17F27C6338C003A3B4E /* QuadTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +67,11 @@
 		A36DE9BF27B6347900E66831 /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
 		A36DE9C127B666DF00E66831 /* SearchSortedRotatedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchSortedRotatedArray.cpp; sourceTree = "<group>"; };
 		A36DE9C427B7B85C00E66831 /* MST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MST.cpp; sourceTree = "<group>"; };
+		A36DE9C627B7C55E00E66831 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		A36DE9C827B7CC8400E66831 /* TwoBitSwap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoBitSwap.cpp; sourceTree = "<group>"; };
+		A36DE9CA27B8548000E66831 /* NaivePatternSearching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NaivePatternSearching.cpp; sourceTree = "<group>"; };
+		A36DE9CC27B8675C00E66831 /* SuffixArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SuffixArray.cpp; sourceTree = "<group>"; };
+		A38EA17F27C6338C003A3B4E /* QuadTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuadTree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				A36DE9C127B666DF00E66831 /* SearchSortedRotatedArray.cpp */,
 				A36DE9C427B7B85C00E66831 /* MST.cpp */,
+				A36DE9CA27B8548000E66831 /* NaivePatternSearching.cpp */,
+				A36DE9CC27B8675C00E66831 /* SuffixArray.cpp */,
+				A38EA17F27C6338C003A3B4E /* QuadTree.cpp */,
+				A36DE9C627B7C55E00E66831 /* QuickSort.cpp */,
+				A36DE9C827B7CC8400E66831 /* TwoBitSwap.cpp */,
 				A3397C6C27AD17D200D095A3 /* main.cpp */,
 				A36DE9B927B3B4BB00E66831 /* LL_RemoveLoop.cpp */,
 				A36DE9B527B13F9500E66831 /* GraphMatrix.cpp */,
@@ -177,20 +192,25 @@
 				A36DE9A627AF033500E66831 /* CircularDoubleLinkedList.cpp in Sources */,
 				A36DE9BE27B50C6400E66831 /* JumpSearch.cpp in Sources */,
 				A36DE9C327B666DF00E66831 /* SearchSortedRotatedArray.cpp in Sources */,
+				A36DE9C727B7C55E00E66831 /* QuickSort.cpp in Sources */,
 				A36DE9B427B0776700E66831 /* GraphAdjacencyList.cpp in Sources */,
 				A36DE9C027B6347900E66831 /* BubbleSort.cpp in Sources */,
 				A3397C7427AD17F800D095A3 /* StackUsingVectors.cpp in Sources */,
 				A3397C7727AD23CD00D095A3 /* LinkedList.cpp in Sources */,
+				A38EA18027C6338C003A3B4E /* QuadTree.cpp in Sources */,
 				A36DE9C527B7B85C00E66831 /* MST.cpp in Sources */,
 				A3397C6D27AD17D200D095A3 /* main.cpp in Sources */,
 				A3397C7B27AE4CB000D095A3 /* DoublyNode.cpp in Sources */,
 				A36DE9AE27AFD92C00E66831 /* HashTableChaining.cpp in Sources */,
 				A36DE9B627B13F9500E66831 /* GraphMatrix.cpp in Sources */,
 				A3397C7927ADD17C00D095A3 /* Node.cpp in Sources */,
+				A36DE9CD27B8675C00E66831 /* SuffixArray.cpp in Sources */,
 				A36DE9B827B141B000E66831 /* Djikstra.cpp in Sources */,
 				A36DE9BC27B5088B00E66831 /* BinarySearch.cpp in Sources */,
 				A36DE9B127AFF0FC00E66831 /* IntersectionLinkedList.cpp in Sources */,
 				A36DE9BA27B3B4BB00E66831 /* LL_RemoveLoop.cpp in Sources */,
+				A36DE9C927B7CC8400E66831 /* TwoBitSwap.cpp in Sources */,
+				A36DE9CB27B8548000E66831 /* NaivePatternSearching.cpp in Sources */,
 				A3397C7D27AE802000D095A3 /* DLinkedList.cpp in Sources */,
 				A3397C7F27AEE84200D095A3 /* CircularLinkedList.cpp in Sources */,
 			);

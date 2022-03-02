@@ -6,3 +6,21 @@
 //
 
 #include <stdio.h>
+
+struct Node {
+    int value;
+    int distance;
+    Node* next;
+};
+
+struct Edge {
+    int start, end;
+    int weight;
+};
+
+class Graph {
+    
+    
+    
+    
+};
