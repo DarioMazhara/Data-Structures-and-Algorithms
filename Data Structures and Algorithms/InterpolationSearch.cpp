@@ -20,4 +20,6 @@ void interpolationSearch(int x, int arr[], int hi, int lo) {
         if (arr[pos] > x)
             return interpolationSearch(x, arr, pos-1, lo);
     }
+
+    return -1;
 }
